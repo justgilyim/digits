@@ -1,3 +1,24 @@
-body {
-  padding-top: 70px;  /* Move body of page below navbar. */
+body, footer {
+    font-family: "Open Sans", sans-serif;
+    color: #385D88;
+}
+
+.header-image {
+    background-image: url('/images/digits-header.jpg');
+    background-size: cover;
+    height: 300px;
+}
+
+.navbar {
+    border-radius: 0px;
+    background-color: #385D88;
+    border-color: #385D88;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFF8EE;
+}
+
+.navbar a.dropdown-toggle {
+    color: #FFF8EE;
 }
