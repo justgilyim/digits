@@ -21,12 +21,13 @@ The settings files will set up the user accounts.
 
 The home page for the application looks like this:
 
+![](https://raw.githubusercontent.com/justgilyim/digits/master/doc/digitsHome.PNG)
 
 To list all of the contacts, login and then go to the List Contacts page:
-
+![](https://raw.githubusercontent.com/justgilyim/digits/master/doc/digitsList.PNG)
 
 To add a contact, go to the Add Contacts page:
-
+![](https://raw.githubusercontent.com/justgilyim/digits/master/doc/digitsADD.PNG)
 
 # Credits
 
