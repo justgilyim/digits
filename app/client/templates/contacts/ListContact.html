@@ -9,8 +9,9 @@
           <th>Last</th>
           <th>Address</th>
           <th>Phone</th>
-          <th>E-mail</th>
+          <th>Email</th>
           <th>Edit</th>
+          <th>Delete</th>
         </tr>
         </thead>
 
@@ -23,6 +24,7 @@
             <td>{{phone}}</td>
             <td>{{email}}</td>
             <td><a href="{{pathFor 'EditContact'}}">Edit</a></td>
+            <a class="btn btn-danger delete" href="#">Delete Contact</a>
           </tr>
         {{/each}}
         </tbody>

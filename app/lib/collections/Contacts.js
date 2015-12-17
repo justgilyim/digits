@@ -20,6 +20,10 @@ Meteor.methods({
   editContact: function(doc, docID) {
     check(doc, Contact.simpleSchema());
     Contact.update({_id: docID}, doc);
+  },
+
+  deleteContact: function(docID) {
+    Contact.remove(docID);
   }
 });
 
@@ -74,17 +78,17 @@ Contact.attachSchema(new SimpleSchema({
     max: 20,
     autoform: {
       group: contact,
-      placeholder: "XXX-XXX-XXXX"
+      placeholder: "Phone"
     }
   },
   email: {
-    label: "E-Mail",
+    label: "Email",
     type: String,
     optional: false,
     max: 20,
     autoform: {
       group: contact,
-      placeholder: "foo@bar.com"
+      placeholder: "Email"
     }
   }
 }));
